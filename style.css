@@ -35,7 +35,7 @@ nav div {
 section#promise {
     background-image: url(./images/mission-background.png);
     height: 700px;
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@ figcaption {
 #locations {
     background-image: url(./images/locations-background.png);
     height: 500px;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-direction: column;

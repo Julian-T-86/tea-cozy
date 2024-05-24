@@ -41,6 +41,7 @@ section#promise {
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin: auto;
 }
 
@@ -48,7 +49,6 @@ section#promise {
     background-color: black;
     width: 100%;
     text-align: center;
-
 }
 
 #mission>h4,
@@ -64,8 +64,6 @@ section#promise {
 }
 figure {
     margin: 0 33px 33px 33px;
-    display: block;
-    
 }
 
 figcaption {
@@ -82,11 +80,13 @@ section#locations {
     align-items: center;
     flex-wrap: wrap;
     overflow: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #locations-addresses {
     display: flex;
-    
 }
 
 #locations-addresses div{
@@ -98,7 +98,6 @@ section#locations {
     flex-direction: column;
     justify-content: center;
     line-height: 3;
-
 }
 
 h3 {
